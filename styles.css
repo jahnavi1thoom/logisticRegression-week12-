@@ -1,0 +1,86 @@
+/* ---------- Pastel Gentle Background ---------- */
+.stApp{
+    background: linear-gradient(
+        135deg,
+        #cfddf4 0%,
+        #efe1eb 45%,
+        #eefcff 100%
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* ---------- Card Section ---------- */
+.card{
+    background: linear-gradient(145deg,#ecc2f4,#a8c7f1);
+    border-radius: 18px;
+    border: 1px solid #dce5f5;
+    box-shadow: 0 12px 38px rgba(0,0,0,0.12);
+    padding: 22px;
+    margin-bottom: 26px;
+}
+
+/* ---------- Headings ---------- */
+h1, h2, h3 {
+    color: #1c2742;
+    font-weight: 700;
+}
+
+
+/* ---------- Metric Cards ---------- */
+div[data-testid="metric-container"]{
+    background: linear-gradient(135deg,#ffe9f4,#e8f4ff);
+    border-radius: 16px;
+    padding: 15px;
+    border: 1px solid #d9e3ef;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+}
+
+
+/* ---------- TABLE ---------- */
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* header */
+[data-testid="stDataFrame"] th {
+    background: #ffdff0 !important;       /* pastel pink header */
+    color: #222 !important;
+    font-weight: bold;
+}
+
+/* cells */
+[data-testid="stDataFrame"] td {
+    color: black !important;
+    border-color: #e3e3e3 !important;
+}
+
+/* zebra pastel rows */
+[data-testid="stDataFrame"] tr:nth-child(even) td {
+    background: #f7fbff !important;       /* pastel blue */
+}
+
+[data-testid="stDataFrame"] tr:nth-child(odd) td {
+    background: #fff6ee !important;       /* pastel peach */
+}
+
+/* hover highlight */
+[data-testid="stDataFrame"] tr:hover td {
+    background: #e5f3ff !important;
+}
+
+
+/* ---------- Prediction Box ---------- */
+.prediction-box{
+    background: linear-gradient(135deg,#ad8099,#9fc0d5);
+    border-radius: 18px;
+    padding: 20px;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    color:#1b1b1b;
+    margin-top:15px;
+    box-shadow: 0 10px 30px rgba(253, 127, 219, 0.15);
+}
